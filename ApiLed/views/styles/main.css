@@ -1,0 +1,234 @@
+body{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: #fefefe;
+}
+h1 {
+    color:rgb(92, 92, 110);
+    text-align: center;
+}
+
+a{
+    text-decoration:none;
+    color:white;
+
+}
+
+#color{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.sub-color{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.sub-color>div{
+    height: 70px;
+    width:12em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.item>a{
+   text-align: center;
+   background-color: red;
+   width: 10em;
+   height: 50px;
+   line-height: 50px;
+   margin:10px;
+   border-radius: 50px;
+   border: 1px solid gray;
+   transition: .5s;
+   cursor:pointer;
+}
+
+.item>a:hover{
+    transition: .5s;
+    width: 11em;
+    line-height: 60px;
+    height: 60px;
+ }
+/* CORES */
+
+#vermelho:active{
+    background-color: black;
+}
+
+#ciano{
+    background-color: #06b5b5;
+}
+
+#ciano:hover{
+
+}
+
+#ciano:active{
+    background-color: black;
+}
+
+#verde{
+    background-color:rgb(0, 176, 0);
+}
+
+#verde:hover{
+    background-color:rgb(0, 176, 0);
+}
+
+#verde:active{
+    background-color: black;
+}
+
+#amarelo{
+    background-color: rgb(215, 215, 5);
+}
+
+#amarelo:hover{
+    background-color: rgb(215, 215, 5);
+}
+
+#amarelo:active{
+    background-color: black;
+}
+
+#azul{
+    background-color: blue;
+}
+
+#azul:hover{
+    background-color: blue;
+}
+
+#azul:active{
+    background-color:black;
+}
+
+#magenta{
+    background-color: #FF00FF;
+}
+
+#magenta:hover{
+    background-color: #FF00FF;
+}
+
+#magenta:active{
+    background-color: black;
+}
+
+#branco{
+    background-color: #fff;
+    color:grey;
+}
+
+#branco:hover{
+    background-color: #fff;
+    color:grey;
+}
+
+#branco:active{
+    background-color:black;
+    color:grey;
+}
+
+#preto{
+    background-color: #000;
+}
+
+#preto:hover{
+    background-color: #000;
+}
+
+#preto:active{
+    background-color:gray;
+}
+
+#intensidade-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#intensidade{
+    width:100%;
+    display:flex;
+    justify-content: center;
+}
+
+#intensidade>input{
+    border-radius: 50px;
+    width: 5em;
+    text-align: center;
+    line-height: 30px;
+    font-size: 30px;
+    border: 1px solid gray;
+}
+
+#intensidade>input:active{
+    border: 1px solid gray;
+}
+
+#intensidade>button{
+    border-radius: 40px;
+    width: 100px;
+    margin-left: 10px;
+    font-weight:bold;
+}
+
+#intensidade>button:hover{
+   background-color: gray;
+   color:white;
+   transition: 0.5s;
+}
+
+#intensidade>button:active{
+   background-color: black;
+}
+
+/* EFEITOS */
+
+#efects{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.sub-efects{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.sub-efects>div{
+    height: 70px;
+    width:12em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.item>a{
+   text-align: center;
+   background-color: red;
+   width: 10em;
+   height: 50px;
+   line-height: 50px;
+   margin:10px;
+   border-radius: 50px;
+   border: 1px solid gray;
+   transition: .5s;
+   cursor:pointer;
+}
+
+.item>a:hover{
+    transition: .5s;
+    width: 11em;
+    line-height: 60px;
+    height: 60px;
+ }

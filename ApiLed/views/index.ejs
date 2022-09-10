@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LED</title>
+    <link rel="shortcut icon" type="image/x-icon" href="icon/favicon.ico" />
+    <link rel="stylesheet" type="text/css" href="/styles/main.css">
+</head>
+<body>
+    <h1>LEDS</h1>
+    <div>
+        <h1>Cores</h1>
+        <div id="color">
+            <div class="sub-color">
+                <div class="item" ><a onclick="call('vermelho')" id="vermelho">VERMELHO</a></div>
+                <div class="item" ><a onclick="call('verde')" id="verde">VERDE</a></div>
+                <div class="item" ><a onclick="call('azul')" id="azul">AZUL</a></div>
+                <div class="item" ><a onclick="call('branco')" id="branco">BRANCO</a></div>
+            </div>
+            <div class="sub-color">
+                <div class="item" ><a onclick="call('ciano')" id="ciano">CIANO</a></div>
+                <div class="item" ><a onclick="call('amarelo')" id="amarelo">AMARELO</a></div>
+                <div class="item" ><a onclick="call('magenta')" id="magenta">MAGENTA</a></div>
+                <div class="item" ><a onclick="call('preto')" id="preto">PRETO</a></div>      
+            </div>
+            
+        </div>
+    </div>
+    <div>
+        <h1>Efeitos</h1>
+        <div id="efects">
+            <div class="sub-efects">
+                <div class="item" ><a onclick="call('snake')" id="vermelho">SNAKE</a></div>
+                <div class="item" ><a onclick="call('faded')" id="verde">FADED</a></div>
+                <div class="item" ><a onclick="call('static')" id="azul">STATIC</a></div>
+            </div>         
+        </div>
+    </div>
+    <div id="intensidade-container">
+        <h1>Intensidade do Brilho</h1>
+        <div  id="intensidade" >
+            <input type="number" id="value" min="0" max="255"><button onclick="callInput()">Enviar</button>
+        </div>
+    </div>
+    <script src="/scripts/main.js"></script>
+</body>
+</html>
